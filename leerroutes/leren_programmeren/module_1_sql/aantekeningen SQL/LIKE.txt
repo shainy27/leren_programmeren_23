@@ -1,0 +1,1 @@
+SELECT * FROM person WHERE email LIKE '%gmail'

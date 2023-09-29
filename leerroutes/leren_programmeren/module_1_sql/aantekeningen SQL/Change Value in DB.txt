@@ -1,0 +1,3 @@
+UPDATE employees
+SET column = value
+WHERE id = 4;

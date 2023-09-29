@@ -1,0 +1,29 @@
+namen = []
+invoeren = True
+
+zolang invoeren:
+  naam = ("Vul een naam in: ")
+  als naam niet in namen:
+     naam toevoegen aan namen
+     als namen groter of gelijk aan 3:
+     	doorgaan = ("Wil je nog een naam invoeren?")
+	als doorgaan is nee:
+		invoeren is False
+  anders:
+     print("Vul aub een unieke naam in")
+
+partners is {}
+lootjes verdelen is True
+
+zolang lootjes verdelen:
+  shuffled namen is willekeurige naam uit namen
+  lootjes verdelen is false
+  
+voor naam in namen:
+  als shuffled namen is gelijk aan namen:
+    lootjes verdelen is True
+
+voor elke naam in aantal namen:             
+    partners bijwerken namen : shuffled namen
+
+print(partners)

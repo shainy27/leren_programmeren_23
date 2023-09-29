@@ -1,0 +1,4 @@
+select distinct name, health from creature order by name
+
+
+(Distinct removes duplicates)

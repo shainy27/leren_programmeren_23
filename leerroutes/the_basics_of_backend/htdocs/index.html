@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> AUTOSSSSSSS</h1>
+    <form action="cars.php" method="get" id="new-car">
+        <p>
+            <label for="brand">brand</label>
+            <input type="text" name="brand" id="brand">
+        </p>
+        <p>
+            <label for="color">color</label>
+            <input type="text" name="color" id="color">
+        </p>
+        <p>
+            <label for="type">type</label>
+            <input type="text" name="type" id="type">
+        </p>
+        <p>
+            <label for="kenteken">kenteken</label>
+            <input type="text" name="kenteken" id="kenteken">
+        </p>
+        <input type="submit" value="Opslaan">
+    </form>
+    <script src=""> </script>
+
+    <script>
+        form = document.getElementById('new-car');
+
+        function response(event){
+            alert(event.response);
+        }
+
+
+        function submitCar(event){
+            alert('submit');
+            event.preventDefault();
+            let FormData = new FormData(this);
+            console.dir(FormData)
+            let xhr = new XMLHttpRequest();
+            xhr.open('get','cars.php');
+            xhr.onload = response;
+            xhr.send(FormData);
+
+        }
+        form.onsubmit = submitCar;
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+select * from creature limit 10
+
+
+(shows only 10 results, using limit)
