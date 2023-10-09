@@ -1,0 +1,82 @@
+{
+    "query": "select name, price from weapon where price <300",
+    "resultcount": 19,
+    "result": [
+        {
+            "name": "Dirk",
+            "price": 10
+        },
+        {
+            "name": "Poniard",
+            "price": 15
+        },
+        {
+            "name": "Rondel",
+            "price": 28
+        },
+        {
+            "name": "Dagger",
+            "price": 50
+        },
+        {
+            "name": "Anelace",
+            "price": 70
+        },
+        {
+            "name": "Baselard",
+            "price": 110
+        },
+        {
+            "name": "Cinquedea",
+            "price": 130
+        },
+        {
+            "name": "Stiletto",
+            "price": 150
+        },
+        {
+            "name": "Quarterstaff",
+            "price": 12
+        },
+        {
+            "name": "Club",
+            "price": 200
+        },
+        {
+            "name": "Pike",
+            "price": 100
+        },
+        {
+            "name": "Pitchfork",
+            "price": 150
+        },
+        {
+            "name": "Tomahawk",
+            "price": 210
+        },
+        {
+            "name": "Sling",
+            "price": 15
+        },
+        {
+            "name": "Shell Chain",
+            "price": 0
+        },
+        {
+            "name": "Soul Sword",
+            "price": 0
+        },
+        {
+            "name": "Obsidian Staff",
+            "price": 0
+        },
+        {
+            "name": "Knock-Down Hammer",
+            "price": 0
+        },
+        {
+            "name": "Axe of Terror",
+            "price": 0
+        }
+    ]
+}

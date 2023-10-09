@@ -1,0 +1,22 @@
+{
+    "query": "select name, region from city where region=\"1\"\n",
+    "resultcount": 4,
+    "result": [
+        {
+            "name": "Tomparf",
+            "region": 1
+        },
+        {
+            "name": "Preqeu",
+            "region": 1
+        },
+        {
+            "name": "Hansora",
+            "region": 1
+        },
+        {
+            "name": "Ismir",
+            "region": 1
+        }
+    ]
+}

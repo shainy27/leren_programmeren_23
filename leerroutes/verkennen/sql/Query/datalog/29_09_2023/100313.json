@@ -1,0 +1,5 @@
+{
+    "query": "select * from armor where name =\"\"\n",
+    "resultcount": 0,
+    "result": []
+}

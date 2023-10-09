@@ -1,0 +1,1 @@
+SELECT * FROM person WHERE city = "Zwijndrecht" OR city = "Papendrecht"

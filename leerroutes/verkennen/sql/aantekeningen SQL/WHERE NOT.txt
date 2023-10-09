@@ -1,0 +1,1 @@
+select * from hero where not charisma = 90

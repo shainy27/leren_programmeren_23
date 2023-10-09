@@ -1,0 +1,19 @@
+{
+    "query": "select * from person where name like \"%B\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 14,
+            "name": "Beelzebub",
+            "sex": "m",
+            "max_health": 40000,
+            "attack": 2500,
+            "defense": 610,
+            "agility": 40,
+            "experience": 2700000,
+            "gold": 25000,
+            "weapon": 51,
+            "armor": 22
+        }
+    ]
+}

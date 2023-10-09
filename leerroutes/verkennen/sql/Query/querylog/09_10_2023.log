@@ -1,0 +1,21 @@
+select * from weapon; #10:26:03@rubyquest.db
+select * from weapon where price>100 and price <1000; #10:26:22@rubyquest.db
+select * from weapon where attack>300 and attack <600; #11:47:00@rubyquest.db
+select * from animal; #11:59:19@rubyquest.db
+select * from animal where defense>7 and defense<9; #12:00:48@rubyquest.db
+select * from animal where defense>=7 and defense<=9; #12:03:21@rubyquest.db
+select * from weapon where attack>300 and attack <600; #12:10:25@rubyquest.db
+select * from creature where name="Killer Bee" or name="Orc"; #12:12:23@rubyquest.db
+select * from person ; #12:16:08@rubyquest.db
+select * from person where name like "B"; #12:16:57@rubyquest.db
+select * from person where name like "b"; #12:17:05@rubyquest.db
+select * from person where name like"B"; #12:17:33@rubyquest.db
+select * from person where name like "%B%"; #12:17:52@rubyquest.db
+select * from person where name like "%B"; #12:18:22@rubyquest.db
+select * from person where name like "B%"; #12:18:32@rubyquest.db
+select * from animal ; #12:19:18@rubyquest.db
+select * from animal where type like "a%"; #12:19:35@rubyquest.db
+select * from animal where type like "%a%"; #12:19:48@rubyquest.db
+select * from animal where type like "%ea%"; #12:22:16@rubyquest.db
+select * from weapon; #12:30:50@rubyquest.db
+select * from weapon where name like "%d"; #12:31:25@rubyquest.db

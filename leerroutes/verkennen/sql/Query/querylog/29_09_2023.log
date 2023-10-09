@@ -1,0 +1,119 @@
+select * from animal ; #09:31:56@rubyquest.db
+select * from person
+; #09:35:00@rubyquest.db
+select * from person
+; #09:35:31@rubyquest.db
+select * from person where agility between 100 and 200 order by agility; #09:37:24@rubyquest.db
+select * from person where name like "%mo%"; #09:41:22@rubyquest.db
+select * from person where name like "%ran%"; #09:41:47@rubyquest.db
+select * from person where name like "%ra%"; #09:41:54@rubyquest.db
+select * from person where name like "%re%"; #09:41:59@rubyquest.db
+select * from hero; #09:56:14@rubyquest.db
+select * from person
+; #09:58:40@rubyquest.db
+select * from courses
+; #09:59:16@dvc-sd.db
+select * from armor
+; #10:00:19@rubyquest.db
+select * from armor where name
+; #10:01:52@rubyquest.db
+select * from armor where name =""
+; #10:03:13@rubyquest.db
+select name FROM armor
+; #10:03:46@rubyquest.db
+select * from weapon; #10:06:11@rubyquest.db
+select name and attack FROM weapon; #10:06:44@rubyquest.db
+select name from weapon; #10:06:58@rubyquest.db
+select name, attack from weapon; #10:07:04@rubyquest.db
+select * from creature; #10:07:44@rubyquest.db
+select name, health from creature; #10:08:16@rubyquest.db
+select * from hero; #10:11:32@rubyquest.db
+select name from weapon where id="7"; #10:12:35@rubyquest.db
+select name, id from weapon where id="7"; #10:12:57@rubyquest.db
+select name, id from region where id="7"; #10:13:19@rubyquest.db
+select * from animal; #10:13:34@rubyquest.db
+select * from armor; #10:13:44@rubyquest.db
+select * from city; #10:13:53@rubyquest.db
+select * from npc; #10:14:01@rubyquest.db
+select * from person
+; #10:14:22@rubyquest.db
+select name, id from person where id="7"; #10:14:40@rubyquest.db
+select * from quest; #10:16:18@rubyquest.db
+select * from quest
+; #10:17:32@rubyquest.db
+select title from quest where gold="0"
+; #10:17:41@rubyquest.db
+select title, gold from quest where gold="0"
+; #10:17:46@rubyquest.db
+select * from region; #10:19:21@rubyquest.db
+select * from city
+; #10:19:52@rubyquest.db
+select name, region from city where region="0"
+; #10:20:27@rubyquest.db
+select name, region from city where region="1"
+; #10:20:34@rubyquest.db
+select * from animal; #10:23:10@rubyquest.db
+select type from animal where type="Sheep"; #10:23:47@rubyquest.db
+select * from animal where type="Sheep"; #10:23:54@rubyquest.db
+select * from animal where owner >0; #10:24:28@rubyquest.db
+select * from quest; #10:52:48@rubyquest.db
+select title, experience from quest where experience="3000"; #10:53:33@rubyquest.db
+select title, experience from quest where experience >3000; #10:53:45@rubyquest.db
+select title, experience from quest where experience >=3000; #10:53:56@rubyquest.db
+select * from person; #10:54:49@rubyquest.db
+select name, gold from person where gold <=1850; #10:55:44@rubyquest.db
+select name, gold from person where gold >=1800; #10:57:17@rubyquest.db
+select name, gold from person where gold >=1300; #10:58:13@rubyquest.db
+select * from weapon; #10:58:35@rubyquest.db
+select name, price from weapon where price <300; #10:59:09@rubyquest.db
+select * from quest; #11:00:16@rubyquest.db
+select * from quest; #11:01:02@rubyquest.db
+select title, experience, gold from quest where experience>gold; #11:01:11@rubyquest.db
+select title, experience, gold from quest where experience<gold; #11:01:29@rubyquest.db
+select title, experience, gold from quest where gold>experience; #11:01:39@rubyquest.db
+select * from creature; #11:02:49@rubyquest.db
+select name, max_health, health from creature where max_health>health; #11:04:23@rubyquest.db
+select * from animal; #11:05:57@rubyquest.db
+select * from animal where not type="Sheep"; #11:06:25@rubyquest.db
+select * from person order by name; #11:10:50@rubyquest.db
+select * from city; #11:13:11@rubyquest.db
+select * from city order by name desc; #11:13:40@rubyquest.db
+select * from person; #11:14:29@rubyquest.db
+select * from person where id="1,10"; #11:18:50@rubyquest.db
+select * from person where id="1,10"; #11:18:55@rubyquest.db
+select * from person where id="1"; #11:19:01@rubyquest.db
+select * from person where id limit 10; #11:22:42@rubyquest.db
+select * from person where id limit 10; #11:22:56@rubyquest.db
+select * from weapon; #11:24:59@rubyquest.db
+select * from weapon; #11:35:01@rubyquest.db
+select * from weapon order by price ; #11:37:17@rubyquest.db
+select * from weapon order by price limit 5; #11:39:37@rubyquest.db
+select * from weapon order by price desc limit 5; #11:39:46@rubyquest.db
+select * from weapon ; #11:40:49@rubyquest.db
+select * from weapon order by attack limit 3; #11:41:13@rubyquest.db
+select * from animal; #11:42:01@rubyquest.db
+select * from animal; #11:43:47@rubyquest.db
+select distinct type from animal; #11:43:57@rubyquest.db
+select * from npc; #11:45:06@rubyquest.db
+select distinct profession from npc; #11:45:21@rubyquest.db
+select * from creature; #11:48:43@rubyquest.db
+select * from creature where name="Killer bee"; #11:50:21@rubyquest.db
+select * from creature ; #11:50:30@rubyquest.db
+select * from creature where name="Killer Bee"; #11:50:58@rubyquest.db
+select * from creature where name="Killer Bee" or name="Orc"; #11:51:10@rubyquest.db
+select * from animal; #11:51:36@rubyquest.db
+select * from animal where speed >=6 and defense >=5; #11:52:21@rubyquest.db
+select * from animal where type="Wolf" or type="Bear" or type="eagle"; #11:53:41@rubyquest.db
+select * from animal where type="Wolf" or type="Bear" or type="Eagle"; #11:53:53@rubyquest.db
+select * from animal ; #11:54:19@rubyquest.db
+select * from animal where type= "tiger" order by speed desc limit 1; #11:56:24@rubyquest.db
+select * from animal where type= "tiger" order by speed desc limit 2; #11:56:28@rubyquest.db
+select * from animal where type= "Tiger" order by speed desc limit 2; #11:56:44@rubyquest.db
+select * from animal where type= "Tiger" order by speed desc limit 1; #11:56:48@rubyquest.db
+select * from animal where type="Tiger" order by speed desc limit 1; #11:56:52@rubyquest.db
+select * from person; #11:58:20@rubyquest.db
+select * from person where attack=10 and agility = 10 and defense = 10; #12:00:41@rubyquest.db
+select * from hero; #12:02:29@rubyquest.db
+select * from hero where not intelligence= "90" and intelligence= "30"; #12:03:13@rubyquest.db
+select * from hero where not intelligence= "90" ; #12:03:29@rubyquest.db
+select * from hero where not intelligence= "90" and not  intelligence= "30"; #12:03:44@rubyquest.db

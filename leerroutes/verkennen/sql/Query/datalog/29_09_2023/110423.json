@@ -1,0 +1,186 @@
+{
+    "query": "select name, max_health, health from creature where max_health>health",
+    "resultcount": 36,
+    "result": [
+        {
+            "name": "Killer Bee",
+            "max_health": 10,
+            "health": 8
+        },
+        {
+            "name": "Killer Bee",
+            "max_health": 10,
+            "health": 2
+        },
+        {
+            "name": "Killer Bee",
+            "max_health": 10,
+            "health": 5
+        },
+        {
+            "name": "Bat",
+            "max_health": 12,
+            "health": 5
+        },
+        {
+            "name": "Bat",
+            "max_health": 12,
+            "health": 11
+        },
+        {
+            "name": "Bat",
+            "max_health": 12,
+            "health": 6
+        },
+        {
+            "name": "Imp",
+            "max_health": 20,
+            "health": 19
+        },
+        {
+            "name": "Imp",
+            "max_health": 20,
+            "health": 2
+        },
+        {
+            "name": "Tarantula",
+            "max_health": 15,
+            "health": 11
+        },
+        {
+            "name": "Tarantula",
+            "max_health": 15,
+            "health": 3
+        },
+        {
+            "name": "Goblin",
+            "max_health": 25,
+            "health": 12
+        },
+        {
+            "name": "Goblin",
+            "max_health": 25,
+            "health": 5
+        },
+        {
+            "name": "Orc",
+            "max_health": 30,
+            "health": 23
+        },
+        {
+            "name": "Orc",
+            "max_health": 30,
+            "health": 3
+        },
+        {
+            "name": "Kobold",
+            "max_health": 110,
+            "health": 75
+        },
+        {
+            "name": "Kobold",
+            "max_health": 110,
+            "health": 63
+        },
+        {
+            "name": "Kobold",
+            "max_health": 110,
+            "health": 22
+        },
+        {
+            "name": "Kobold",
+            "max_health": 110,
+            "health": 109
+        },
+        {
+            "name": "Gargoyle",
+            "max_health": 90,
+            "health": 74
+        },
+        {
+            "name": "Gargoyle",
+            "max_health": 90,
+            "health": 56
+        },
+        {
+            "name": "Gargoyle",
+            "max_health": 90,
+            "health": 11
+        },
+        {
+            "name": "Ghost",
+            "max_health": 150,
+            "health": 33
+        },
+        {
+            "name": "Magog",
+            "max_health": 60,
+            "health": 12
+        },
+        {
+            "name": "Troll",
+            "max_health": 150,
+            "health": 104
+        },
+        {
+            "name": "Golem",
+            "max_health": 135,
+            "health": 105
+        },
+        {
+            "name": "Golem",
+            "max_health": 135,
+            "health": 132
+        },
+        {
+            "name": "Demon",
+            "max_health": 100,
+            "health": 56
+        },
+        {
+            "name": "Troglodyte",
+            "max_health": 180,
+            "health": 122
+        },
+        {
+            "name": "Valkyrie",
+            "max_health": 220,
+            "health": 198
+        },
+        {
+            "name": "Gorgon",
+            "max_health": 250,
+            "health": 219
+        },
+        {
+            "name": "Cyclops",
+            "max_health": 230,
+            "health": 57
+        },
+        {
+            "name": "Hydra",
+            "max_health": 250,
+            "health": 202
+        },
+        {
+            "name": "Hydra",
+            "max_health": 250,
+            "health": 48
+        },
+        {
+            "name": "Hydra",
+            "max_health": 250,
+            "health": 1
+        },
+        {
+            "name": "Pterodactyl",
+            "max_health": 200,
+            "health": 6
+        },
+        {
+            "name": "Titan",
+            "max_health": 800,
+            "health": 799
+        }
+    ]
+}

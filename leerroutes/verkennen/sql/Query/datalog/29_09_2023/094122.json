@@ -1,0 +1,58 @@
+{
+    "query": "select * from person where name like \"%mo%\"",
+    "resultcount": 4,
+    "result": [
+        {
+            "id": 45,
+            "name": "Mossay",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 118,
+            "name": "L'mosler",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 123,
+            "name": "Stusmor",
+            "sex": "f",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 162,
+            "name": "Modraris",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        }
+    ]
+}

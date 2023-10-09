@@ -1,0 +1,84 @@
+{
+    "query": "select * from person where name like \"%re%\"",
+    "resultcount": 6,
+    "result": [
+        {
+            "id": 7,
+            "name": "Shrek",
+            "sex": "m",
+            "max_health": 1360,
+            "attack": 70,
+            "defense": 68,
+            "agility": 30,
+            "experience": 14720,
+            "gold": 467,
+            "weapon": 29,
+            "armor": 4
+        },
+        {
+            "id": 24,
+            "name": "Tredrakel",
+            "sex": "f",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 36,
+            "name": "Perer",
+            "sex": "f",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 115,
+            "name": "Dared-ild",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 176,
+            "name": "Streyt",
+            "sex": "f",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        },
+        {
+            "id": 195,
+            "name": "Therengwar",
+            "sex": "f",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        }
+    ]
+}

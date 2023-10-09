@@ -1,0 +1,10 @@
+{
+    "query": "select title, gold from quest where gold=\"0\"\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "title": "The lost search",
+            "gold": 0
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "select name from weapon where id=\"7\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Cinquedea"
+        }
+    ]
+}

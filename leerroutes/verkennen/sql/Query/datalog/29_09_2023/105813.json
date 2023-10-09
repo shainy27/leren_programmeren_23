@@ -1,0 +1,42 @@
+{
+    "query": "select name, gold from person where gold >=1300",
+    "resultcount": 9,
+    "result": [
+        {
+            "name": "Konan",
+            "gold": 1850
+        },
+        {
+            "name": "Captain America",
+            "gold": 1800
+        },
+        {
+            "name": "Buzz Lightyear",
+            "gold": 1345
+        },
+        {
+            "name": "Zelda",
+            "gold": 1925
+        },
+        {
+            "name": "Bowser",
+            "gold": 10000
+        },
+        {
+            "name": "Ser Cauthrien",
+            "gold": 14000
+        },
+        {
+            "name": "Magician Faust",
+            "gold": 20000
+        },
+        {
+            "name": "Beelzebub",
+            "gold": 25000
+        },
+        {
+            "name": "The Demi-Fiend",
+            "gold": 40000
+        }
+    ]
+}

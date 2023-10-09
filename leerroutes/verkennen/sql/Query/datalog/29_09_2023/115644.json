@@ -1,0 +1,22 @@
+{
+    "query": "select * from animal where type= \"Tiger\" order by speed desc limit 2",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        },
+        {
+            "id": 71,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

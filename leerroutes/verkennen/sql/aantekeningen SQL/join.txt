@@ -1,0 +1,3 @@
+select animal.*, person.name, person.sex
+from animal
+join person on person.id = animal.owner
